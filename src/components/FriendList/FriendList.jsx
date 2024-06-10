@@ -1,4 +1,5 @@
 import "./FriendList.css";
+import FriendListItem from "../FriendListItem/FriendListItem";
 
 export default function FriendList({ friends }) {
   return (
@@ -7,19 +8,5 @@ export default function FriendList({ friends }) {
         return <FriendListItem key={f.id} friend={f} />;
       })}
     </ul>
-  );
-}
-
-function FriendListItem({ friend }) {
-  return (
-    <li className="friendCard">
-      <img src={friend.avatar} alt="Avatar" width="48" className="friendAva" />
-      <p className="friendName">{friend.name}</p>
-      {friend.isOnline ? (
-        <p className="online">Online</p>
-      ) : (
-        <p className="offline">Offline</p>
-      )}
-    </li>
   );
 }

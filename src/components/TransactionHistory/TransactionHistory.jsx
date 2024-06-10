@@ -1,4 +1,5 @@
 import "./TransactionHistory.css";
+import Transaction from "../Transaction/Transaction";
 
 export default function TransactionHistory({ trans }) {
   return (
@@ -24,15 +25,5 @@ export default function TransactionHistory({ trans }) {
         })}
       </tbody>
     </table>
-  );
-}
-
-function Transaction({ type, amount, currency }) {
-  return (
-    <tr className={type}>
-      <td className="type">{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
-    </tr>
   );
 }
