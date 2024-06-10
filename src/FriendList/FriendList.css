@@ -1,0 +1,33 @@
+.friendList {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+  justify-content: center;
+}
+.friendCard {
+  width: 70px;
+  padding: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friendAva {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.friendName {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.online {
+  font-size: 16px;
+  color: green;
+}
+.offline {
+  font-size: 16px;
+  color: red;
+}

@@ -1,0 +1,33 @@
+.trans {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.trans thead {
+  background-color: #444;
+  color: white;
+  font-weight: 700;
+}
+.type {
+  text-align: left;
+  padding-left: 50px;
+  width: 40%;
+}
+.trans th,
+.trans td {
+  border: 1px solid gray;
+}
+.invoice {
+  background-color: #fff1e8;
+}
+.payment {
+  background-color: #d6edf6;
+}
+.withdrawal {
+  background-color: #e9d9ff;
+}
+.deposit {
+  background-color: #f1ffdd;
+}
